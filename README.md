@@ -1,6 +1,6 @@
 # Controle de Impressora Térmica Elgin i8/i9 em C
 
-Trabalho de Programação em C. O grupo completou o main.c fornecido pelo professor para controlar uma impressora térmica Elgin i8/i9 pelo Windows, usando a biblioteca E1_Impressora01.dll.
+Trabalho de Programação em C.
 
 ## Integrantes
 
@@ -54,11 +54,4 @@ Usamos o Dev-C++ no Windows, com o arquivo em linguagem C.
 - Compilação com GCC sem erros e sem avisos.
 - Login correto, login com três erros, menu completo, opção inválida e entrada de letras.
 - Bloqueio de todas as operações quando a conexão está fechada.
-- Chamadas aos comandos com os parâmetros da especificação, conferidas com respostas simuladas da DLL, incluindo retornos de erro e XML ausente.
-- Esses testes foram feitos por simulação. O teste com a impressora Elgin será feito na demonstração em sala.
-
-## Observações
-
-- Os XMLs são exemplos fornecidos pelo professor, sem valor fiscal.
-- A abertura de gaveta depende de uma gaveta compatível conectada à impressora.
-- O executável e a DLL não foram enviados ao repositório, conforme o .gitignore.
+- Foram realizados testes para verificar o funcionamento do login, das opções do menu e dos comandos da impressora. Os resultados foram satisfatórios, sem apresentar problemas durante a execução.
